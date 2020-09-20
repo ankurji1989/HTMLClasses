@@ -1,0 +1,5 @@
+html,body{margin:0px;padding:0px; font-size: 16px; font-family: 'verdana';color:#1f1f1f;}
+
+.fullContainer{width: 100%;float: left;}
+.container{width: 100%; max-width: 1180px; margin: 0px auto;}
+.container .wrapper{width: 100%;float: left;}
