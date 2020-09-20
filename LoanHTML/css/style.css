@@ -1,5 +1,23 @@
-html,body{margin:0px;padding:0px; font-size: 16px; font-family: 'verdana';color:#1f1f1f;}
+html,body{margin:0px;padding:0px; font-size: 15px; font-family: 'Quattrocento', serif; font-weight: 400; color:#1f1f1f;}
+img{max-width: 100%;}
+*{box-sizing: border-box;}
 
 .fullContainer{width: 100%;float: left;}
 .container{width: 100%; max-width: 1180px; margin: 0px auto;}
 .container .wrapper{width: 100%;float: left;}
+
+/* header section */
+.header .logo{width: 50%;float: left;}
+.header .logo a{display: inline-block;}
+.header .logo img{max-height: 80px;}
+
+.header .navbox{width: 50%;float: left;}
+.header .navbox ul{margin:0px;padding: 0px; list-style-type: none;float: right;}
+.header .navbox ul li{display: inline-block;}
+.header .navbox ul li a{text-decoration: none;color:#000; display: inline-block;padding:40px 15px;}
+.header .navbox ul li a:hover,
+.header .navbox ul li a.selected{color:#29aae1; background: #f6f6f6 url('../images/nav-icon.png') bottom center no-repeat;}
+
+/* banner section */
+.banner .container{max-width: 100%;}
+.banner img{width: 100%;}
