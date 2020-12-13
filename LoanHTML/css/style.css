@@ -20,4 +20,35 @@ img{max-width: 100%;}
 
 /* banner section */
 .banner .container{max-width: 100%;}
+.banner .wrapper{position: relative;}
 .banner img{width: 100%;}
+
+.absoluteBox{width: 100%;max-width: 100%;position: absolute;left:0px;right:0px;top:0px;max-width: 1180px; margin: 0px auto;}
+
+.bannerTitle{color: #fff;width: 100%;max-width: 600px;margin-bottom: 25px;}
+.bannerTitle h1{font-size: 56px;margin-bottom: 0px;}
+.bannerTitle p{font-size: 22px;}
+.bannerTitle span{font-size: 14px;}
+
+.formWrapper{width: 100%;max-width: 300px;}
+.formBox{width: 100%;float: left;background: #dddddb;padding: 15px;border-radius: 5px;box-shadow: 0px 0px 5px #151515;}
+.formBox .formRow{width: 100%;float: left;margin:0px 0px 10px 0px;}
+.formBox .formRow label{display: block;font-weight: 600;margin:0px 0px 5px 0px;}
+.formBox .formRow select,
+.formBox .formRow input[type='text']{width: 100%;padding:5px;}
+
+.formBox .acknowledge label{font-weight: normal;font-size: 12px;}
+.formBox .acknowledge input{margin: 0px;vertical-align: middle;}
+
+.blueBtn{background: #29aae1;width: 100%;color: #fff;border: 0px;padding: 8px 0px;font-size: 22px;font-family: 'Quattrocento', serif;cursor: pointer;}
+.blueBtn:hover{background: #0188c2;}
+
+.halfBoxes{width: 100%;float: left;}
+.halfBoxes .formRow{width: 50%;}
+.halfBoxes .formRow:first-child{padding-right: 10px;;}
+
+.classification .column3{width: 33%;float: left;display: flex;padding:15px 10px;}
+.classification .column3 .leftBox{width: 90px;float: left;display: flex;justify-content: center;align-items: center;}
+.classification .column3 .rightBox{width: calc(100% - 90px);float: left;}
+.classification .column3 .rightBox h3{margin-top: 0px;margin-bottom: 10px;}
+.classification .column3 .rightBox p{margin: 0px;}

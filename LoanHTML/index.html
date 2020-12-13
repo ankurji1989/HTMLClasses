@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="Stylesheet" type="text/css" />
@@ -29,15 +32,80 @@
     </div>   
 </nav><!-- header/nav box -->
 
-<section class="fullContainer banner"> <!-- full width -->
+<section class="fullContainer banner">
     <div class="container"> <!-- container width -->
     <div class="wrapper"> <!-- full width -->
-
         <img src="images/banner.png" />
+        <div class="absoluteBox">
+            <div class="bannerTitle">
+                <h1>The loans you need, when you need them.</h1>
+                <p>Apply for the loan that best fits your needs.</p>
+                <span>Debt Consolidation Loans.co.uk is committed to working with the best lenders to provide you the best possible service.</span>
+            </div><!-- banner title -->
 
+            <div class="formWrapper">
+                <div class="formBox">
+                    <div class="formRow">
+                        <label>Loan Product Type</label>
+                        <select><option>Select Product Loan Type...</option></select>
+                    </div>
+                    <div class="halfBoxes">
+                        <div class="formRow">
+                            <label>Loan Amount</label>
+                            <select><option>Select</option></select>
+                        </div>
+                        <div class="formRow">
+                            <label>Post Code</label>
+                            <input type="text" placeholder="Enter post code" />
+                        </div>
+                    </div>
+                    <div class="formRow acknowledge">
+                        <label><input type="checkbox" /> By submitting your information, you acknowledge you have read, understand, and agree to the terms of our Privacy Policy, Terms & Conditions of Use, and Marketing Practices. I understand that by submitting my information, I may be contacted by telephone by one lender. </label>
+                    </div>
+                    <div class="formRow">
+                        <input type="button" class="blueBtn" value="Apply Now" />
+                    </div>
+                </div><!-- form box -->
+            </div><!-- form wrapper -->
+        </div>
     </div>
     </div>   
 </section>
 
+<section class="fullContainer classification">
+    <div class="container"> <!-- container width -->
+        <div class="wrapper"> <!-- full width -->
+            <div class="column3">
+                <div class="leftBox">
+                    <img src="images/icon1.png" />
+                </div>
+                <div class="rightBox">
+                    <h3>Apply for a Cash Loan</h3>
+                    <p>Your application is easy, safe and only takes minutes.</p>
+                </div>
+            </div><!-- column3 -->
+
+            <div class="column3">
+                <div class="leftBox">
+                    <img src="images/icon2.png" />
+                </div>
+                <div class="rightBox">
+                    <h3>Apply for a Cash Loan</h3>
+                    <p>Your application is easy, safe and only takes minutes.</p>
+                </div>
+            </div><!-- column3 -->
+
+            <div class="column3">
+                <div class="leftBox">
+                    <img src="images/icon3.png" />
+                </div>
+                <div class="rightBox">
+                    <h3>Apply for a Cash Loan</h3>
+                    <p>Your application is easy, safe and only takes minutes.</p>
+                </div>
+            </div><!-- column3 -->
+        </div>
+    </div>
+</section>
 </body>
 </html>
