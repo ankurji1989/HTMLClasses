@@ -81,3 +81,21 @@ img{max-width: 100%;}
 .grayFooter .bottomBox{width: 100%;float: left;margin-top: 20px;}
 .grayFooter .bottomBox h4{margin-bottom: 5px;}
 .grayFooter .bottomBox p{font-size: 12px;}
+
+/* FAQ */
+.faq{background: #f3f3f3;}
+.pageTitle{font-size: 26px;}
+
+.faqBox{width: 100%;float: left;margin: 0px 0px 30px 0px;}
+.faqItem{width: 100%;float: left; border-top: 1px solid #bcbcbc;padding: 0px 10px;}
+.faqItem:last-child{border-bottom: 1px solid #bcbcbc;}
+.faqItem .faqTitle{width: 100%;float: left;background: url('../images/arrow-icon.png') right -55px no-repeat;}
+.faqItem .faqTitle h4{color: #29aae1;margin: 0px 0px;font-size: 14px;padding: 10px 0px;cursor: pointer;}
+
+.faqItem .faqContent{width: 100%;float: left;display: none;}
+.faqItem .faqContent p{font-size: 13px;}
+
+.selected{background: #fff;}
+.selected .faqTitle{background: url('../images/arrow-icon.png') right 7px no-repeat;}
+.selected .faqTitle h4{color: #1f1f1f;}
+.selected .faqContent{display: block;}
