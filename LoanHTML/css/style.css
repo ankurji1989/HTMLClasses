@@ -52,3 +52,32 @@ img{max-width: 100%;}
 .classification .column3 .rightBox{width: calc(100% - 90px);float: left;}
 .classification .column3 .rightBox h3{margin-top: 0px;margin-bottom: 10px;}
 .classification .column3 .rightBox p{margin: 0px;}
+
+/* grayLogo */
+.grayLogo{background: #f3f3f3;text-align: center;padding:50px 0px;}
+.grayLogo .container{max-width: 900px;}
+.grayLogo h1{font-size: 40px;}
+.grayLogo h3{font-size: 23px;color:#29aae1;font-style: italic;}
+
+/* footer */
+.footer{text-align: center;color:#1f1f1f;padding: 25px 0px;}
+.footer ul{margin: 0px;padding: 0px;list-style-type: none;}
+.footer ul li{display: inline-block;border-right: 1px solid #1f1f1f;padding-right: 10px;margin-right: 5px;}
+.footer ul li:last-child{border: 0px;padding: 0px;margin: 0px;}
+.footer ul li a{display: block;text-decoration: none; text-transform: uppercase;font-size:13px;color:#1f1f1f;}
+.footer ul li a:hover{ text-decoration: underline;}
+.footer p{font-size: 12px;margin-bottom: 0px;;}
+
+
+/* grayFooter */
+.grayFooter{background: #f3f3f3;padding: 25px 0px;}
+.grayFooter .topBox {width: 100%;float: left;}
+.grayFooter .topBox .column4{width: 33.33%;float: left;padding:0px 1.5%;}
+.grayFooter .topBox .imageBox{width: 100%;border:3px solid #cfcfcf;float: left;}
+.grayFooter .topBox .imageBox img{width: 100%;float: left;}
+.grayFooter .topBox .textBox{width: 100%;float: left;text-align: center;margin-top: 10px;}
+.grayFooter .topBox .textBox span{color:#29aae1;display: inline-block;padding: 12px 0px 12px 52px;font-size: 22px;background: url('../images/tickIcon.png') left center no-repeat;font-weight: 600;}
+
+.grayFooter .bottomBox{width: 100%;float: left;margin-top: 20px;}
+.grayFooter .bottomBox h4{margin-bottom: 5px;}
+.grayFooter .bottomBox p{font-size: 12px;}
